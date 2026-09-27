@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "save": {
+    "name": "Super Liga — Grêmio",
+    "currentSeason": 2030,
+    "club": "Grêmio",
+    "game": "EA Sports FC 26",
+    "type": "custom_super_league",
+    "seedSource": "Histórico das conversas com o usuário até 2026-09-27"
+  },
+  "structure": {
+    "divisions": ["Série A", "Série B", "Série C", "Série D", "Liga de Acesso"],
+    "serieA": 20,
+    "serieB": 20,
+    "serieC": 20,
+    "serieDFormat": "grupos + mata-mata",
+    "serieDQualifiersPerGroup": 4
+  },
+  "gremioTitles": [
+    {"season": 2026, "competition": "Série D", "status": "confirmed"},
+    {"season": 2027, "competition": "Série C", "status": "confirmed"},
+    {"season": 2028, "competition": "Série B", "status": "confirmed"},
+    {"season": 2029, "competition": "Série A", "status": "confirmed"}
+  ],
+  "leagueChampions": {
+    "Série A": [
+      {"season": 2026, "club": "PSG", "status": "confirmed"},
+      {"season": 2027, "club": "Manchester City", "status": "confirmed"},
+      {"season": 2028, "club": "Manchester City", "status": "confirmed"},
+      {"season": 2029, "club": "Grêmio", "status": "confirmed"}
+    ],
+    "Série B": [
+      {"season": 2026, "club": "FC København", "status": "prior_chat"},
+      {"season": 2027, "club": "Stade Rennais", "status": "confirmed"},
+      {"season": 2028, "club": "Grêmio", "status": "confirmed"}
+    ],
+    "Série C": [
+      {"season": 2026, "club": "Independiente", "status": "prior_chat"},
+      {"season": 2027, "club": "Grêmio", "status": "confirmed"}
+    ],
+    "Série D": [
+      {"season": 2026, "club": "Grêmio", "status": "confirmed"}
+    ],
+    "Liga de Acesso": [
+      {"season": 2026, "club": "Peñarol", "status": "prior_chat"},
+      {"season": 2027, "club": "Başakşehir", "status": "prior_chat"}
+    ]
+  },
+  "gremioSeasons": [
+    {
+      "season": 2026,
+      "division": "Série D",
+      "result": "champion",
+      "final": {"opponent": "Chelsea", "aggregate": "6-3", "legs": ["Grêmio 4-0 Chelsea", "Chelsea 3-2 Grêmio"]},
+      "notes": ["Primeiro título da escalada do save."]
+    },
+    {
+      "season": 2027,
+      "division": "Série C",
+      "result": "champion",
+      "final": {"opponent": "Chelsea", "aggregate": "5-1", "legs": ["Grêmio 2-1 Chelsea", "Chelsea 0-3 Grêmio"], "firstLegStatus": "inferred_from_aggregate"},
+      "promotedWith": ["Flamengo", "Chelsea", "Ajax"],
+      "notes": ["Grêmio, Flamengo, Chelsea e Ajax subiram juntos novamente."]
+    },
+    {
+      "season": 2028,
+      "division": "Série B",
+      "result": "champion",
+      "table": {"points": 103, "played": 38, "wins": 33, "draws": 4, "losses": 1, "gf": 144, "ga": 54, "gd": 90},
+      "notes": ["Objetivo do clube era terminar entre os 8 primeiros.", "Flamengo terminou vice com 78 pontos."]
+    },
+    {
+      "season": 2029,
+      "division": "Série A",
+      "result": "champion",
+      "table": {"points": 87, "played": 38, "wins": 27, "draws": 6, "losses": 5, "gf": 137, "ga": 55, "gd": 82},
+      "runnerUp": {"club": "Manchester City", "points": 87, "gf": 87, "ga": 43, "gd": 44},
+      "cup": {"competition": "Copa do Brasil", "result": "Fase 3"},
+      "notes": ["Título conquistado empatado em pontos com o Manchester City.", "Grêmio venceu o Manchester City por 3-1 na Arena na reta final.", "Última rodada: Liverpool x Grêmio; Manchester City x Chelsea."]
+    }
+  ],
+  "serieA2029": {
+    "top": [
+      {"position": 1, "club": "Grêmio", "points": 87, "gf": 137, "ga": 55, "gd": 82},
+      {"position": 2, "club": "Manchester City", "points": 87, "gf": 87, "ga": 43, "gd": 44},
+      {"position": 3, "club": "Barcelona", "points": 82},
+      {"position": 4, "club": "Real Madrid", "points": 80},
+      {"position": 5, "club": "Liverpool", "points": 76},
+      {"position": 6, "club": "PSG", "points": 76}
+    ],
+    "bottom": [
+      {"position": 14, "club": "Stade Rennais", "points": 37},
+      {"position": 15, "club": "Flamengo", "points": 34},
+      {"position": 16, "club": "Slavia Praga", "points": 33},
+      {"position": 17, "club": "Botafogo", "points": 27, "relegated": true},
+      {"position": 18, "club": "Cagliari", "points": 25, "relegated": true},
+      {"position": 19, "club": "Burnley", "points": 23, "relegated": true},
+      {"position": 20, "club": "Girona", "points": 22, "relegated": true}
+    ]
+  },
+  "promotedToSerieA2030": [
+    {"club": "Villarreal", "method": "direct", "serieBPoints": 80},
+    {"club": "Juventus", "method": "direct", "serieBPoints": 77},
+    {"club": "Atlético de Madrid", "method": "playoff"},
+    {"club": "Strasbourg", "method": "playoff"}
+  ],
+  "ligaDeAcesso2029": [
+    {"position": 1, "club": "Rangers", "points": 66},
+    {"position": 2, "club": "OGC Nice", "points": 64},
+    {"position": 3, "club": "Lecce", "points": 60},
+    {"position": 4, "club": "RB Salzburg", "points": 57},
+    {"position": 5, "club": "Santos", "points": 53},
+    {"position": 6, "club": "Cruz Azul", "points": 51},
+    {"position": 7, "club": "Dinamo Zagreb", "points": 51}
+  ],
+  "playerLeagueStats2029": [
+    {"player": "Raphinha", "club": "Grêmio", "games": 34, "goals": 27, "assists": 17, "awards": ["Player of the Season"]},
+    {"player": "Kaio Jorge", "club": "Grêmio", "games": 30, "goals": 19, "assists": 17},
+    {"player": "Nikola Vlašić", "club": "Grêmio", "games": 32, "assists": 20, "awardNotes": ["Líder de assistências do Brasileirão 2029"]},
+    {"player": "Lautaro Martínez", "club": "Grêmio", "games": 28, "assists": 17},
+    {"player": "Emiliano Martínez", "club": "Grêmio", "games": 32, "cleanSheets": 8}
+  ],
+  "playerHistories": [
+    {
+      "player": "Paulinho",
+      "role": "Ídolo / primeiro grande atacante do save",
+      "joined": 2026,
+      "left": 2029,
+      "origin": "Palmeiras",
+      "exit": {"club": "Barcelona", "fee": 165000000},
+      "seasons": [
+        {"season": 2026, "competition": "Série D", "games": 22, "goals": 27, "assists": 15, "title": true},
+        {"season": 2027, "competition": "Série C", "goals": 23, "assists": 12, "title": true, "status": "late_season_record"},
+        {"season": 2028, "competition": "Série B", "goals": 25, "assists": 12, "status": "league_leaderboard_snapshot"}
+      ],
+      "notes": ["Primeira contratação do save.", "Chelsea tentou contratar.", "Multa foi reajustada de cerca de 36-38 milhões para 70 milhões.", "Dortmund tentou acionar a multa anteriormente, mas os termos pessoais falharam."]
+    },
+    {
+      "player": "Raphinha",
+      "club": "Grêmio",
+      "season2029": {"games": 34, "goals": 27, "assists": 17, "award": "Player of the Season"}
+    },
+    {
+      "player": "Kaio Jorge",
+      "club": "Grêmio",
+      "season2029": {"games": 30, "goals": 19, "assists": 17},
+      "role": "12º jogador / atacante de rotação muito importante"
+    },
+    {
+      "player": "Lautaro Martínez",
+      "club": "Grêmio",
+      "joined": 2029,
+      "overallLate2029": 88,
+      "ageLate2029": 32,
+      "marketValueLate2029": 103000000,
+      "releaseClauseLate2029": 170000000,
+      "salaryLate2029": 60000,
+      "contractYearsLate2029": 3,
+      "notes": ["Chegou do Inter por 102 milhões em 2029.", "Negociação por troca seca com Julián Álvarez foi cogitada para 2030."]
+    },
+    {
+      "player": "Rayan",
+      "club": "Grêmio",
+      "overallLate2029": 86,
+      "notes": ["Chegou do Bournemouth em 2029; a negociação incluiu Plata.", "Juventus acionou a multa após renovação para cerca de 205 milhões em 2030."]
+    }
+  ],
+  "transfers2029": {
+    "incoming": [
+      {"player": "Rayan", "from": "Bournemouth", "cashDisplayed": 80400000, "packageIncludes": ["Plata"]},
+      {"player": "Lautaro Martínez", "from": "Inter", "fee": 102000000},
+      {"player": "Allan", "from": "Manchester City", "fee": 29500000},
+      {"player": "Danilo Santos", "from": "Botafogo", "fee": 23500000},
+      {"player": "Hannibal", "from": "Burnley", "cashDisplayed": 6000000, "packageIncludes": ["Martinelli"]},
+      {"player": "Yuri Alberto", "from": "Corinthians", "fee": 46000000},
+      {"player": "Gustavo Martins", "from": "Palmeiras", "fee": 17000000},
+      {"player": "Bruno Guimarães", "type": "swap", "packageIncludes": ["Jobe Bellingham"]},
+      {"player": "Marcos Antônio", "notes": ["Contratado para completar a rotação do meio-campo."]}
+    ],
+    "outgoing": [
+      {"player": "Paulinho", "to": "Barcelona", "fee": 165000000},
+      {"player": "Exequiel Zeballos", "to": "Burnley", "fee": 49000000},
+      {"player": "Kevin Viveros", "to": "Manchester City", "fee": 38000000},
+      {"player": "Rodrigo Garro", "to": "Ipswich", "fee": 42300000},
+      {"player": "Juan Musso", "to": "Ajax", "fee": 4000000},
+      {"player": "Richard Ríos", "notes": ["Vendido por proposta considerada muito boa; valor e destino ainda não registrados."]},
+      {"player": "Jobe Bellingham", "type": "swap_for", "incoming": "Bruno Guimarães"}
+    ]
+  },
+  "market2030": [
+    {"player": "Rayan", "from": "Grêmio", "to": "Juventus", "amount": 205000000, "type": "release_clause_triggered", "status": "pending_or_triggered_not_confirmed_complete"},
+    {"playerOut": "Lautaro Martínez", "playerIn": "Julián Álvarez", "counterparty": "Atlético de Madrid", "cash": 0, "type": "proposed_swap", "status": "planned"}
+  ],
+  "late2029SquadSnapshot": {
+    "startingXI": [
+      {"player": "Emiliano Martínez", "position": "GK", "overall": 83},
+      {"player": "Hernández", "position": "LB", "overall": 84},
+      {"player": "Rivero", "position": "CB", "overall": 80},
+      {"player": "Gustavo Martins", "position": "CB", "overall": 78},
+      {"player": "Khellven", "position": "RB", "overall": 79},
+      {"player": "Hannibal", "position": "MID", "overall": 82},
+      {"player": "Bruno Guimarães", "position": "MID", "overall": 86, "captain": true},
+      {"player": "Nikola Vlašić", "position": "AM", "overall": 82},
+      {"player": "Raphinha", "position": "LW", "overall": 88},
+      {"player": "Rayan", "position": "RW", "overall": 86},
+      {"player": "Lautaro Martínez", "position": "ST", "overall": 88}
+    ],
+    "rotation": [
+      {"player": "Kaio Jorge", "overall": 83},
+      {"player": "Yuri Alberto", "overall": 83},
+      {"player": "Gabriel Pec", "overall": 79},
+      {"player": "Allan", "overall": 81},
+      {"player": "Matheus Pereira", "overall": 79},
+      {"player": "Marcos Antônio", "overall": 79},
+      {"player": "Danilo Santos", "overall": 80},
+      {"player": "Jefté", "overall": 78},
+      {"player": "Acheampong", "overall": 81}
+    ]
+  },
+  "rivalriesAndStories": [
+    {"name": "Grêmio x Chelsea", "notes": ["Chelsea foi adversário das finais da Série D 2026 e Série C 2027.", "Chelsea tentou contratar Paulinho."]},
+    {"name": "Geração dos Quatro", "clubs": ["Grêmio", "Flamengo", "Chelsea", "Ajax"], "notes": ["Os quatro clubes avançaram juntos em etapas importantes da escalada."]},
+    {"name": "Burnley e ex-Grêmio", "notes": ["Burnley reuniu Martinelli, Zeballos e Villasanti em determinado momento do save."]}
+  ],
+  "saveRulesAndPreferences": [
+    "Manter o save competitivo e evitar um elenco inteiro superapelão.",
+    "Valorizar jogadores brasileiros e sul-americanos.",
+    "Evitar desmontar rivais/clubes importantes como Flamengo, Chelsea e Ajax quando isso prejudicar a narrativa.",
+    "Aceitar que multas rescisórias possam tirar jogadores do clube.",
+    "Usar desafios de janela para aumentar a longevidade do save.",
+    "Registrar títulos, acessos, rebaixamentos, transferências, recordes e histórias de jogadores."
+  ],
+  "dataQuality": {
+    "rule": "Fatos confirmados por screenshots ou mensagens recentes têm prioridade. Itens marcados como prior_chat/inferred/planned devem permanecer identificados até nova confirmação.",
+    "lastSeedUpdate": "2026-09-27"
+  }
+}
