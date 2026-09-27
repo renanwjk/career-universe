@@ -1,0 +1,9 @@
+{
+  "name": "Career Universe",
+  "short_name": "Career",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0b0c0f",
+  "theme_color": "#0b0c0f",
+  "description": "Companion de Modo Carreira para acompanhar ligas, jogadores, mercado e histórias do save."
+}
